@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Nunito Sans', sans-serif;
     color: #5E5E5E;
+    font-weight: 300;
 }
 
 
@@ -126,6 +127,7 @@ img:hover {
 
 .main-container {
     display: flex;
+    height: max-content;
 }
 
 .left-container {
@@ -144,6 +146,7 @@ img:hover {
     height: 100%;
     background-color: #F9F7F6;
     right: 0;
+    
 }
 
 .left-container-content :first-child {
@@ -175,6 +178,16 @@ img:hover {
     cursor: pointer;
     background-color: #c5c5c51f;
 }
+/* 
+.left-container-header:hover {
+    /* cursor: pointer; */
+    /* background-color: rgba(255, 255, 255, 0.1); subtle transparent white */
+    /* backdrop-filter: blur(6px); glass blur effect */
+    /* -webkit-backdrop-filter: blur(6px); Safari support */
+    /* border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; */
+
 
 .left-container-header span {
     /* position: absolute; */
@@ -418,3 +431,4 @@ hr {
     cursor: pointer;
     background-color: #c5c5c51f;
 }
+
