@@ -7,7 +7,7 @@
     <title>My Day - To Do</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-    <link rel="icon" href="Assets/Images/favicon.png" type="image/png">
+    <link rel="icon" href="Assets/Images/clipboard2.svg" type="image/svg">
     <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
 </head>
 
@@ -119,8 +119,12 @@
             <!-- WHen I click on add Task , one child of it should drop-down form it -->
             <div class="add-task">
                 <img src="Assets/Images/Vector (Stroke).svg" alt="">
-                <input type="text" placeholder="Add a Task">
+                <input id="input-task" type="text" placeholder="Add a Task">
             </div>
+            <!-- <div  class="add-task-list">
+                <img src="Assets/Images/Vector (Stroke).svg" alt="">
+                <input id="input-task" type="text" placeholder="Add a Task"> 
+            </div> -->
 
             <div hidden class="drop-box">
                 <div>
@@ -128,7 +132,7 @@
                     <img src="Assets/Images/bell.svg" alt="">
                     <img src="Assets/Images/repeat.svg" alt="">
                 </div>
-                <button>Add</button>
+                <button id="add-list">Add</button>
             </div>
         </div>
 
